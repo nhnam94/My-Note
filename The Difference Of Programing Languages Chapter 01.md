@@ -13,13 +13,13 @@
 | **Access Modifier**   | Là public, private, protected. Nếu không khai báo Access Modifier thì nó được setting là private. Riêng với protected thì phương thức, biến được truy cập trong lớp định nghĩa nó và các lớp kế thừa nó.|Ngoài 3 phạm vi của C++ Java có thêm defauft nghĩa là được truy cập bên trong package. Nếu không khai báo Access Modifier thì nó được mặc định là defauft. Với phạm vi protected nó còn bị giới hạn bởi package là bên ngoài package thì chỉ có lớp con được truy cập, bên trong package thì được truy cập.|
 | **Operator Overloading** | Có thể nạp chồng các toán tử  += -= *= /= >> <<.   |Java không cho phép nạp chồng toán tử mà chỉ được sử dụng phép cộng chuổi "str = strA + strB".|
 |**Hổ trợ lớp thuần túy ảo**|**Có hỗ trợ lớp thuần ảo**|**Không hỗ trợ lớp thuần ảo**|
-|**Lớp ảo(trừu tượng)**|Được nhận biết khi các phương thức được khai báo với từ  khóa virtual. |Một abtract class được định nghĩa khi class đó được gán từ khóa abtract ở đầu class.|
+|**Lớp ảo(trừu tượng)**|Được nhận biết khi các phương thức được khai báo với từ  khóa virtual. |Một Abstract Class được định nghĩa khi class đó được gán từ khóa abstract ở đầu class.|
 |**Hổ trợ Interface**| Không hổ trợ interface tuy nhiên có thể giả một lớp tương tự Interface bằng một lớp ảo.|Được hổ trợ sử dụng Interface trong thiết kế Hướng đối tượng.|
 |**Đa kế thừa**| Ở C++ được hổ trợ đa kế thừa, nghĩa là một lớp lớp có thể kế thừa được từ nhiều lớp.|Với Java thì không được hổ trợ đa kế thừa. Một lớp chỉ được kế thừa từ một Lớp nhưng khác với C++ là nó được hổ trợ Interface nên nó có thể implement nhiều Interface.|
 |**Lớp không thể kế thừa**|Một khi có một lớp được tạo ra, thì các lớp con đều có thể kế thừa nó|Với Java, khi đánh dấu bằng từ khóa *final* ở đầu class thì lớp đó không được kế thừa|
 |**Lớp Cha của mọi lớp**| Với một lớp được tạo ra mà không kế thừa bất kì lớp nào khác thì lớp này không có lớp Cha nền định nghĩa trên không tồn tại với C++|Tuy nhiên, với ngôn ngữ Java vì nó là ngôn ngữ thuần hướng đối tượng nên nó tồn tại lớp Object là lớp cha của tất cả mọi lớp.|
 |**Tổ chức Class**|C++ có tổ chức lớp gọn gàng hơn, bởi phần khai báo và định nghĩa các method có thể được tách ra 2 tập tin .cpp và .h|Toàn bộ khai báo và định nghĩa phải gói gọn trong 1 class trong 1 tập tin .java|
-|**Abtract Method**|Được định nghĩa với từ khóa virtual trước method|Abtract Method được định nghĩa với từ khóa abtract ở đầu method và những method này thì không có định nghĩa trong thân hàm.|
+|**Abstract Method**|Được định nghĩa với từ khóa virtual trước method|Abstract Method được định nghĩa với từ khóa abstract ở đầu method và những method này thì không có định nghĩa trong thân hàm.|
 |**Định nghĩa không gian tên**|Được định nghĩa bằng các khai báo namespace "Name"{ Khai báo lớp}| Trong Java Namespace chính là tên của package chứa class đó.|
 |**Hàm chính**|Hàm main không thuộc bất cứ lớp nào cả.| Hàm main thuộc một class|
 |**Hàm hủy**|Trong C++, phải gọi hàm hủy để dọn dẹp bộ nhớ. Để tối ưu bộ nhớ đòi hỏi sự tỉ mỉ khi gọi hàm này| Java có GC, bộ thu dọn rác => Java tối ưu về bộ nhớ hơn C++|
@@ -50,8 +50,8 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
 
 # II. So sánh ReactJS và VueJS
 ## 1. Trả lời câu hỏi React và Vue JS là gì?
-**Vue.js** là một progressive framework dùng để xây dựng giao diện người dùng.  
-**ReactJS** là một thư viện JavaScript dùng để xây dựng giao diện người dùng. Và mục tiêu chính của nó là xử lí user interface trong các ứng dụng. Tính năng quan trọng và có giá trị nhất của ReactJS đó là khả năng xây dựng các add-ons, các add-ons này có thể tự cập nhật thay vì phải reload các trang bổ sung.
+**ReactJS** là một thư viện JavaScript dùng để xây dựng giao diện người dùng. Và mục tiêu chính của nó là xử lí user interface trong các ứng dụng. Tính năng quan trọng và có giá trị nhất của ReactJS đó là khả năng xây dựng các add-ons, các add-ons này có thể tự cập nhật thay vì phải reload các trang bổ sung. ReactJS hướng tới môi trường native, cho sự linh hoạt về giao diện ở nhiều situations và environments.
+**Vue.js** là một progressive framework dùng để xây dựng giao diện người dùng. Đặc biệt là Vue.js 2.0 cũng đang hướng tới môi trường native. Tuy nhiên nó vẫn chỉ đang tập trung vào Web development.
 
 ## 2. Điểm giống nhau của 2 ngôn ngữ này
 + Sử dụng Virtual DOM (Virtual DOM là một đối tượng có chứa các thông tin để tạo ra một Actual DOM).
@@ -70,7 +70,7 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
     + Chỉ phục vụ cho tâng View vì nó chỉ là một View Library cho nên nó không có phần Model và Controller. Nên nó phải kết hợp với những Framework khác. Vì vậy phát triển một ứng dụng chỉ riêng ReactJS là rất khó.
     + ReactJS không có 2-way-binding.
     + Khi tích hợp ReactJS vào các Framework sử dụng MVC thì phải cấu hình lại.
-    + ReactJS nặng so với những Framework khác cụ thể là AgularJS.
+    + ReactJS nặng so với những Framework khác cụ thể là AngularJS.
     + Tài liệu hướng dẫn phức tạp và khó cho những người mới làm quen.
 
 ### b. Điểm mạnh và yếu của Vue.js
@@ -84,8 +84,18 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
     + Dễ dàng để sử dụng, thời gian để làm quen với Vue thì nhanh và dễ dàng hơn những Framework khác, điển hình như là AngularJS. 
 + ĐIỂM YẾU:
     + Cộng đống đang còn nhỏ, nhưng nó đang phát triển. Cho nên những tài nguyên được đóng góp vào đang còn ít so với những framework Javascript khác.
-## 4. Tại sao lại chọn ReactJS thay vì Vue.js và ngược lại.
+## 4. Cân nhắc lựa chọn giữa Vue.js và ReactJS
 Với những điểm tương đồng của những tính năng và khả năng mà cả 2 đem lại. Tuy nhiên để có những khả năng đó thì chúng thực hiện với những cách khác nhau.
+
+So với Vue.js thì React.js khó học hơn vì những thuật ngữ cho một số định nghĩa trong React.js còn gây khó khăn cho người học và điều này của React.js lại không thân thiện được như Vue.js.
+
+ReactJS so với Vue.js thì có độ phổ biến cao hơn, nhiều doanh nghiệp đã lựa chọn nó là giải pháp. Tuy nhiên hiện nay, nhiều lập trình viên đang cân nhắc việc sự dụng Vue.js thay cho ReactJS với AngularJS.
+
+Vue.js cũng có State Management là Vuex  tương tự như Redux (là một thư viện JavaScript được xây dựng trên ngôn ngữ Elm và kiến trúc Flux do Facebook giới thiệu) kết hợp với ReactJS.
+
+Điểm mạnh khác của Vue.js so với ReactJS đó là tài liệu hướng dẫn chi tiết dễ hiểu hơn.
+
+
 
 
 
