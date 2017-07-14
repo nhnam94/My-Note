@@ -67,9 +67,9 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
     + Hiệu năng cao với các ứng dụng có dữ liệu thay đỗi liên tục.
     + Một lợi ích chính khác của ReactJS và hệ sinh thái của nó đó là: React Native - các product độc lập cho phép tạo giao diện người dùng đa nền tảng trên các ứng dụng di động đòi hỏi những thay đỗi phải ứng(react) để phù hợp với nền tảng đang chạy (tính Native).
 + ĐIỂM YẾU
-    + Chỉ phục vụ cho tâng View vì nó chỉ là một View Library cho nên nó không có phần Model và Controller. Nên nó phải kết hợp với những Framework khác. Vì vậy phát triển một ứng dụng chỉ riêng ReactJS là rất khó.
+    + ReactJS chỉ phục vụ cho tâng View vì nó chỉ là một View Library cho nên nó không có phần Model và Controller. Nên nó phải kết hợp với những Framework khác để xây dựng một ứng dụng hoàn chỉnh. Vì vậy phát triển một ứng dụng chỉ riêng ReactJS là rất khó.
     + ReactJS không có 2-way-binding.
-    + Khi tích hợp ReactJS vào các Framework sử dụng MVC thì phải cấu hình lại.
+    + Khi tích hợp ReactJS vào các Framework sử dụng MVC thì phải tái cấu trúc.
     + ReactJS nặng so với những Framework khác cụ thể là AngularJS.
     + Tài liệu hướng dẫn phức tạp và khó cho những người mới làm quen.
 
@@ -83,13 +83,13 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
     + Vuex library giúp cho khả năng mở rộng ứng dụng tốt trên Vue.js. Tuy nhiên, yếu tố về khả năng mở rộng của một ứng dụng phụ thuộc nhiều vào xây dựng cấu trúc ứng dụng hơn là chỉ phụ thuộc vào những thư viện ở tầng View như là react hay vue.
     + Dễ dàng để sử dụng, thời gian để làm quen với Vue thì nhanh và dễ dàng hơn những Framework khác, điển hình như là AngularJS. 
 + ĐIỂM YẾU:
-    + Cộng đống đang còn nhỏ, nhưng nó đang phát triển. Cho nên những tài nguyên được đóng góp vào đang còn ít so với những framework Javascript khác.
+    + Cộng đống đang còn nhỏ, nhưng nó đang phát triển. Cho nên những tài nguyên được đóng góp vào đang còn ít so với những cộng đồng khác.
 ## 4. Cân nhắc lựa chọn giữa Vue.js và ReactJS
 Với những điểm tương đồng của những tính năng và khả năng mà cả 2 đem lại. Tuy nhiên để có những khả năng đó thì chúng thực hiện với những cách khác nhau.
 
-So với Vue.js thì React.js khó học hơn vì những thuật ngữ cho một số định nghĩa trong React.js còn gây khó khăn cho người học và điều này của React.js lại không thân thiện được như Vue.js.
-
 ReactJS so với Vue.js thì có độ phổ biến cao hơn, nhiều doanh nghiệp đã lựa chọn nó là giải pháp. Tuy nhiên hiện nay, nhiều lập trình viên đang cân nhắc việc sự dụng Vue.js thay cho ReactJS với AngularJS.
+
+So với Vue.js thì React.js khó học hơn vì những thuật ngữ cho một số định nghĩa trong React.js còn gây khó khăn cho người học và điều này của React.js lại không thân thiện được như Vue.js.
 
 Vue.js cũng có State Management là Vuex  tương tự như Redux (là một thư viện JavaScript được xây dựng trên ngôn ngữ Elm và kiến trúc Flux do Facebook giới thiệu) kết hợp với ReactJS.
 
