@@ -51,6 +51,7 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
 # II. So sánh ReactJS và Vue.js
 ## 1. ReactJS và Vue.js là gì?
 **ReactJS** là một thư viện JavaScript dùng để xây dựng giao diện người dùng. Và mục tiêu chính của nó là xử lí user interface trong các ứng dụng. Tính năng quan trọng và có giá trị nhất của ReactJS đó là khả năng xây dựng các add-ons, các add-ons này có thể tự cập nhật thay vì phải reload các trang bổ sung. ReactJS hướng tới môi trường native, cho sự linh hoạt về giao diện ở nhiều situations và environments.
+
 **Vue.js** là một progressive framework dùng để xây dựng giao diện người dùng. Đặc biệt là Vue.js 2.0 cũng đang hướng tới môi trường native. Tuy nhiên nó vẫn chỉ đang tập trung vào Web development. Vue.js hướng tới View-Model Layer trên mẫu MVVM.
 
 ## 2. Điểm giống nhau của 2 ngôn ngữ này
