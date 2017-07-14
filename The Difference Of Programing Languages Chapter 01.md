@@ -48,10 +48,10 @@ Ví dụ với C++ ta khai báo một mảng 2 phẩn tử. Tại thời điểm
 **Dấn đến:**
  Người lập trình phải kiểm soát được các con trỏ đã khai báo để không bị ảnh hưởng đến chương trình bởi các kết quả sai lệch hoặc là các lỗi tràn bộ nhớ. Với Java sau khi loại bỏ  con trỏ và dùng các biến tham chiếu. Nếu khai báo một mảng n phần tử thì ta không thể truy xuất ra được ngoài vùng đã khai báo. Khi truy xuất vượt giới hạn như vậy thì complier sẽ throw exception.
 
-# II. So sánh ReactJS và VueJS
-## 1. Trả lời câu hỏi React và Vue JS là gì?
+# II. So sánh ReactJS và Vue.js
+## 1. ReactJS và Vue.js là gì?
 **ReactJS** là một thư viện JavaScript dùng để xây dựng giao diện người dùng. Và mục tiêu chính của nó là xử lí user interface trong các ứng dụng. Tính năng quan trọng và có giá trị nhất của ReactJS đó là khả năng xây dựng các add-ons, các add-ons này có thể tự cập nhật thay vì phải reload các trang bổ sung. ReactJS hướng tới môi trường native, cho sự linh hoạt về giao diện ở nhiều situations và environments.
-**Vue.js** là một progressive framework dùng để xây dựng giao diện người dùng. Đặc biệt là Vue.js 2.0 cũng đang hướng tới môi trường native. Tuy nhiên nó vẫn chỉ đang tập trung vào Web development.
+**Vue.js** là một progressive framework dùng để xây dựng giao diện người dùng. Đặc biệt là Vue.js 2.0 cũng đang hướng tới môi trường native. Tuy nhiên nó vẫn chỉ đang tập trung vào Web development. Vue.js hướng tới View-Model Layer trên mẫu MVVM.
 
 ## 2. Điểm giống nhau của 2 ngôn ngữ này
 + Sử dụng Virtual DOM (Virtual DOM là một đối tượng có chứa các thông tin để tạo ra một Actual DOM).
