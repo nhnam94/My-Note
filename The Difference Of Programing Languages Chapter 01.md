@@ -4,7 +4,7 @@
 
 + C++ là ngôn ngữ lập trình biên dịch (compiled language). là ngôn ngữ có mã nguồn được trình biên dịch (ví dụ Visual Studio), biên dịch sang binary code (chứa trong các tập tin .exe hoặc là .dll. Sau đó hệ điều hành sẽ  thực thi các file .dll và .exe.
 
-**Từ đặc điểm trên:** **C++** có lợi thế về tốc độ vì không thông qua quá trình thông dịch sang mã trung gian. Tuy nhiên nó bị hạn chế về mặt nền tảng đó là chị chạy trên nền tảng Window. Ngược lại **Java** mục tiêu ban đầu khi ra mắt được gắn với câu giới thiệu là *WORA* (Write once, run anywhere) để phản ánh những lợi ích về đa nền tảng, điều mà **C++** không có được. Vì những lợi ích về cross-platform mà tốc độ của nó sẽ bị hạn chế hơn.
+**Từ đặc điểm trên:** **C++** có lợi thế về tốc độ vì không thông qua quá trình thông dịch sang mã trung gian. Tuy nhiên nó bị hạn chế về mặt nền tảng đó là chỉ chạy tốt trên nền tảng Window, mặt khác C++ còn có thể chạy được trên GNU (là một hệ điều hành dạng Unix, một số biến thể của nó như là Linux hay MacOS), tuy vậy tính đa nền của nó không mạnh bằng Java. Ngược lại **Java** mục tiêu ban đầu khi ra mắt được gắn với câu giới thiệu là *WORA* (Write once, run anywhere) để phản ánh những lợi ích về đa nền tảng, điều mà **C++** không có được. Vì những lợi ích về cross-platform mà tốc độ của nó sẽ bị hạn chế hơn.
 
 ## b. So sánh OOP giữa Java và C++
 | Đặc điểm                      | C++                   | Java                  |
